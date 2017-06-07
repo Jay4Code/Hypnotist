@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hypnotist</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="exit">exit</string>
+    <string name="start">start</string>
+    <string name="pause">pause</string>
+</resources>

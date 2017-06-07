@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lga.hypnotist.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/breathstudy_img_sm_play"
+        android:contentDescription="@string/app_name"/>
+
+    <com.xw.repo.BubbleSeekBar xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/sbar_duration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="128dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginStart="24dp"
+        app:bsb_bubble_color="#78c4ec"
+        app:bsb_bubble_text_color="@color/colorPrimaryDark"
+        app:bsb_max="30"
+        app:bsb_min="5"
+        app:bsb_progress="30"
+        app:bsb_second_track_color="#78c4ec"
+        app:bsb_section_count="5"
+        app:bsb_section_text_position="sides"
+        app:bsb_show_progress_in_float="false"
+        app:bsb_show_section_mark="true"
+        app:bsb_show_section_text="true"
+        app:bsb_show_thumb_text="true"
+        app:bsb_track_color="#b1dfec" />
+
+    <Button
+        android:id="@+id/btn_player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="72dp"
+        android:background="@drawable/bg_btn_player"
+        android:minWidth="72dp"
+        android:text="@string/start"
+        android:textColor="#b1dfec" />
+
+</RelativeLayout>
